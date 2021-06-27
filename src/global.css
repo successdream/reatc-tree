@@ -1,0 +1,7 @@
+@import '~antd/dist/antd.css';
+.App{
+    /* color: #fff;` */
+    /* background-color: yellow; */
+    /* font-size: 60px; */
+    height: 100vh;
+}
