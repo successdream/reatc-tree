@@ -1,0 +1,19 @@
+
+.fade-enter{
+    color: red;
+    font-size: 10px;
+  
+}
+.fade-enter-active{
+    color: green;
+    font-size: 100px;
+    transition: all 3s linear;
+
+}
+
+.fade-enter-done{
+    color: yellow;
+    font-size: 300px;
+    transition: all 3s linear;
+
+}

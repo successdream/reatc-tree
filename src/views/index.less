@@ -1,0 +1,23 @@
+.box{
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    .header{
+        height: 80px;
+    }
+    .bottom{
+        flex: 1;
+        background-color: green;
+        display: flex;
+        height: calc(100% - 80px);
+        .left{
+            width: 300px;
+            background-color: yellow;
+        }
+        .right{
+            background-color: blue;
+            flex: 1;
+        }
+    }
+}

@@ -3,6 +3,7 @@ import './global.css';
 import Home from './views/home'
 import MyTree from './views/myTree'
 import { Button } from 'antd';
+import Page from './views'
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,8 @@ function App() {
       {/* <div>我是App组件</div>
       <Button type="primary">我是button</Button>
       <Home/> */}
-      <MyTree/>
+      {/* <MyTree/> */}
+      <Page></Page>
     </div>
   );
 }
